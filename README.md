@@ -37,9 +37,6 @@ The model leverages **natural language processing (NLP)** techniques combined wi
 
 The dataset is well balanced across classes, making it suitable for supervised classification.
 
-📍 Dataset location in this repository:
-data/fake_news.csv
-
 ---
 
 ## 🛠 Tools & Technologies
@@ -90,6 +87,7 @@ Optimizer: `Adam`
 
 ## 📁 Repository Structure
 
+```
 fake-news-detection/
 │
 ├── data/
@@ -104,49 +102,45 @@ fake-news-detection/
 │
 ├── LICENSE
 └── README.md
+```
 
 ---
 
-📊 Results Summary
-The model achieves approximately 78% classification accuracy on the test set.
+## 📊 Results Summary
 
-Performance is balanced across REAL and FAKE classes.
+- The model achieves approximately 78% classification accuracy on the test set.
+- Performance is balanced across REAL and FAKE classes.
+- Training accuracy is high, while validation accuracy highlights realistic generalization behavior.
+- Confusion matrix and learning curves provide transparent performance evaluation.
+- Generated outputs are available in the results/ directory.
 
-Training accuracy is high, while validation accuracy highlights realistic generalization behavior.
+---
 
-Confusion matrix and learning curves provide transparent performance evaluation.
+## 🧠 Key Insights
 
-Generated outputs are available in the results/ directory.
+- Hybrid CNN–LSTM models effectively capture both local and sequential text features.
+- Pre-trained embeddings significantly improve semantic understanding.
+- Deep learning models can overfit quickly without regularization.
+- Even with balanced data, validation performance reflects the inherent complexity of fake news detection.
 
-🧠 Key Insights
-Hybrid CNN–LSTM models effectively capture both local and sequential text features.
+---
 
-Pre-trained embeddings significantly improve semantic understanding.
+## 📜 License
 
-Deep learning models can overfit quickly without regularization.
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for details.
 
-Even with balanced data, validation performance reflects the inherent complexity of fake news detection.
+---
 
-📜 License
-This project is licensed under the MIT License.
-See the LICENSE file for details.
+## 📌 Notes
 
-📌 Notes
-This project is intended for educational and portfolio purposes.
-
-Code prioritizes clarity, reproducibility, and interpretability.
-
-Possible future extensions include:
-
-Attention mechanisms
-
-Bidirectional LSTM
-
-Class imbalance handling
-
-Model deployment using Flask or FastAPI
-
-Real-time news stream integration
+- This project is intended for educational and portfolio purposes.
+- Code prioritizes clarity, reproducibility, and interpretability.
+- Possible future extensions include:
+-- Attention mechanisms
+-- Bidirectional LSTM
+-- Class imbalance handling
+-- Real-time news stream integration
 
 🧾 Author
 Mr Rup
