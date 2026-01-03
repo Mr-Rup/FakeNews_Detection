@@ -134,13 +134,13 @@ See the [LICENSE](LICENSE) file for details.
 
 ## 📌 Notes
 
-- This project is intended for educational and portfolio purposes.
-- Code prioritizes clarity, reproducibility, and interpretability.
+- This project is intended for **educational and portfolio purposes**.
+- The code prioritizes **clarity, reproducibility, and interpretability**.
 - Possible future extensions include:
--- Attention mechanisms
--- Bidirectional LSTM
--- Class imbalance handling
--- Real-time news stream integration
+  - Attention mechanisms
+  - Bidirectional LSTM architectures
+  - Handling class imbalance
+  - Real-time news stream integration
 
 🧾 Author
 Mr Rup
