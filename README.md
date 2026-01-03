@@ -143,6 +143,7 @@ See the [LICENSE](LICENSE) file for details.
   - Real-time news stream integration
 
 🧾 Author
+
 Mr Rup
 GitHub: https://github.com/Mr-Rup
 
